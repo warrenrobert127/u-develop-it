@@ -4,8 +4,6 @@ CREATE TABLE candidates (
   last_name VARCHAR(30) NOT NULL,
   industry_connected BOOLEAN NOT NULL
 );
-/*
-DROP DATABASE election;
 
 CREATE TABLE parties (
   id INTEGER AUTO_INCREMENT PRIMARY KEY,
